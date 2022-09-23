@@ -1,23 +1,18 @@
 {
-  "name": "taptrix",
+  "name": "api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "license": "MIT",
   "scripts": {
-    "dev": "concurrently \"cd api && yarn dev\" \"cd web && yarn dev\""
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/MehfoozurRehman/TapTrix.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/MehfoozurRehman/TapTrix/issues"
-  },
-  "homepage": "https://github.com/MehfoozurRehman/TapTrix#readme",
   "dependencies": {
-    "concurrently": "^7.4.0"
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
