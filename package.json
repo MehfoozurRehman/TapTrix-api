@@ -1,0 +1,23 @@
+{
+  "name": "taptrix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd api && yarn dev\" \"cd web && yarn dev\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MehfoozurRehman/TapTrix.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MehfoozurRehman/TapTrix/issues"
+  },
+  "homepage": "https://github.com/MehfoozurRehman/TapTrix#readme",
+  "dependencies": {
+    "concurrently": "^7.4.0"
+  }
+}
